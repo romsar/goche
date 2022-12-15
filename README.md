@@ -4,11 +4,11 @@ Goche - it's fast, simple, zero dependency and well-tested Go package for create
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/romsar/goche)](https://goreportcard.com/report/github.com/romsar/goche)
 
-<img width="300" alt="image" src="https://user-images.githubusercontent.com/27378369/207821452-0c8750bd-e4da-408d-83cf-5ae1f9708b73.png" />
+<img width="300" alt="mr goche" src="https://user-images.githubusercontent.com/27378369/207927889-c52fb466-3a7f-4a58-8215-3a9c42c6c393.png" />
 
 ## Benchmarks
 
-<img width="861" alt="image" src="https://user-images.githubusercontent.com/27378369/207714000-0716f854-27ed-4013-ad1a-23761b0b60f3.png">
+<img width="861" alt="benchmarks" src="https://user-images.githubusercontent.com/27378369/207714000-0716f854-27ed-4013-ad1a-23761b0b60f3.png">
 
 ## Usage
 
