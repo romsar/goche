@@ -99,7 +99,7 @@ func (c *Cache[k, v]) delete(key k) {
 // ATM there is workers to delete expires.
 func (c *Cache[k, v]) Run(ctx context.Context) {
 	interval := c.pollInterval
-	if c.pollInterval.Microseconds() == 0 {
+	if interval.Microseconds() == 0 {
 		interval = defaultPollInterval
 	}
 
