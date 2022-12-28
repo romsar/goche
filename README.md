@@ -40,7 +40,7 @@ ctx := context.Background()
 c := goche.New[string, string]()
 go c.Run(ctx)
 
-c.Set("foo", "bar", TTL[string](10 * time.Second))
+c.Set("foo", "bar", goche.TTL[string](10 * time.Second))
 ```
 
 ### TTL with reset
@@ -50,7 +50,7 @@ ctx := context.Background()
 c := goche.New[string, string]()
 go c.Run(ctx)
 
-c.Set("foo", "bar", TTLWithReset[string](10 * time.Second))
+c.Set("foo", "bar", goche.TTLWithReset[string](10 * time.Second))
 
 // now, everytime when we do c.Get - ttl is resetting.
 ```
